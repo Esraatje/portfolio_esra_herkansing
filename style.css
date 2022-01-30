@@ -1,0 +1,82 @@
+body {
+    background-image: url("Afbeeldingen/achtergrond.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    background-attachment: fixed;
+}
+
+h1 {
+    font-family: sans-serif;
+    padding-left: 1em;
+    color: #2D2D2B;
+}
+
+img {
+    width: 15em;
+    height: 15em;
+}
+
+footer img {
+    width: 2em;
+    height: 2em;
+    margin-top: 1em;
+}
+
+p {
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.portfolio {
+    font-family: sans-serif;
+    background-color: #245EA9;
+    padding: 1em;
+    border-radius: 1em;
+    color: white;
+}
+
+.contact {
+    font-family: sans-serif;
+    background-color: #DFA23C;
+    padding: 1em;
+    border-radius: 1em;
+    color: white;
+}
+
+section {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    align-items: right;
+}
+
+.buttons {
+    display: flex;
+    justify-content: right;
+}
+
+a {
+    font-family: sans-serif;
+    margin: 10px;
+    text-decoration: none;
+    color: #2D2D2B;
+}
+
+
+
+footer {
+    background-color: #245EA9;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+b {
+    color: #DFA23C;
+    text-decoration: underline;
+}
